@@ -42,11 +42,11 @@ const enc = document.querySelector(".enc-text-area");
 */
 
 dec.addEventListener("input", (e) => {
-  enc.value = encrypt(e.target.value, 3);
+  enc.value = encrypt(e.target.value, 23);
 });
 
 enc.addEventListener("input", (e) => {
-    dec.value = decrypt(e.target.value, 3);
+    dec.value = decrypt(e.target.value, 23);
 });
   
   
